@@ -1101,6 +1101,7 @@ header .top-bar {
 	position: absolute;
 	left: 90px;
 	top: 0;
+	
 }
 header .logo {
 	float: left;
@@ -1294,7 +1295,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/nightsky.jpg) no-repeat center bottom;
+	background: #151515 url(../images/net3.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
