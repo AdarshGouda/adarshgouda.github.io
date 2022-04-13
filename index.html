@@ -938,7 +938,7 @@
 
 	   				<div class="timeline-content">
 	   					<h4>Dyna-Drill, A Schlumberger Company, Canada </h4>
-						   <button onclick="myFunction1()">Show Details</button>
+						   
 
 						   <div id="myDIV1"style="display:none">
 							
@@ -957,14 +957,18 @@
 
 							
 							</div>
+							<input onclick="myFunction1()" type = "button" value = "SHOW DETAILS" id="but1"></input>
 
 							<script>
 								function myFunction1() {
 								  var x = document.getElementById("myDIV1");
+								  var y = document.getElementById("but1");
 								  if (x.style.display === "none") {
 									x.style.display = "block";
+									y.value = "HIDE DETAILS"
 								  } else {
 									x.style.display = "none";
+									y.value = "SHOW DETAILS"
 								  }
 								}
 								</script>
@@ -986,7 +990,7 @@
 	   				<div class="timeline-content">
 	   					<h4>Schlumberger, Singapore</h4>
 
-						   <button onclick="myFunction2()">Show Details</button>
+						   
 
 						   <div id="myDIV2"style="display:none">
 
@@ -1004,16 +1008,22 @@
 
 							</div>
 
+							<input onclick="myFunction2()" type = "button" value = "SHOW DETAILS" id="but2"></input>
+
 							<script>
 								function myFunction2() {
 								  var x = document.getElementById("myDIV2");
+								  var y = document.getElementById("but2");
 								  if (x.style.display === "none") {
 									x.style.display = "block";
+									y.value = "HIDE DETAILS"
 								  } else {
 									x.style.display = "none";
+									y.value = "SHOW DETAILS"
 								  }
 								}
 								</script>
+					   </div>
 	   			</div> <!-- /timeline-block -->
 
 	   			<div class="timeline-block">
@@ -1030,8 +1040,7 @@
 	   				<div class="timeline-content">
 	   					<h4>Larsen & Toubro, India</h4>
 
-						   <button onclick="myFunction3()">Show Details</button>
-
+						   
 						   <div id="myDIV3"style="display:none">
 
 	   					<p>• Responsible for complete mechanical design of single-phase and three-phase energy meters. Completed 3 full design cycles as a key contributor in successfully launching the single-phase DIN meter, Pre-paid meter and three-phase Smart Meter.
@@ -1048,13 +1057,18 @@
 
 						</div>
 
+						<input onclick="myFunction3()" type = "button" value = "SHOW DETAILS" id="but3"></input>
+
 						<script>
 							function myFunction3() {
 							  var x = document.getElementById("myDIV3");
+							  var y = document.getElementById("but3");
 							  if (x.style.display === "none") {
 								x.style.display = "block";
+								y.value = "HIDE DETAILS"
 							  } else {
 								x.style.display = "none";
+								y.value = "SHOW DETAILS"
 							  }
 							}
 							</script>
@@ -1076,7 +1090,6 @@
 	   				<div class="timeline-content">
 	   					<h4>PES Institute of Technology, India</h4>
 
-						   <button onclick="myFunction4()">Show Details</button>
 
 						   <div id="myDIV4"style="display:none">
 
@@ -1085,16 +1098,21 @@
 							Team member of PACE program to develop heat exchangers for F1 specifications in collaboration with GE, Sun Systems and Brigham Young University.</p>
 
 						   </div>
+						   <input onclick="myFunction4()" type = "button" value = "SHOW DETAILS" id="but4"></input>
+
 						   <script>
-							function myFunction4() {
-							  var x = document.getElementById("myDIV4");
-							  if (x.style.display === "none") {
-								x.style.display = "block";
-							  } else {
-								x.style.display = "none";
-							  }
-							}
-							</script>
+							   function myFunction4() {
+								 var x = document.getElementById("myDIV4");
+								 var y = document.getElementById("but4");
+								 if (x.style.display === "none") {
+								   x.style.display = "block";
+								   y.value = "HIDE DETAILS"
+								 } else {
+								   x.style.display = "none";
+								   y.value = "SHOW DETAILS"
+								 }
+							   }
+							   </script>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
