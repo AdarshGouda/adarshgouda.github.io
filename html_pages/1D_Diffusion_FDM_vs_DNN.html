@@ -14603,9 +14603,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Motivation"><strong>Motivation</strong><a class="anchor-link" href="#Motivation">&#182;</a></h2><p>The three main methods used to solve scientific equations and problems are analytical, numerical, and experimental. However, due to financial and time restrictions, we cannot always apply the experimental technique. Analytical techniques are the classic approaches to problem solving. However, we cannot solve equations analytically due to limitations imposed by complex geometry, boundary conditions, and other factors.</p>
-<p>As a result, we have been encouraging numerical approaches for a number of years since they may generate answers that are virtually as trustworthy as those of analytical methods in a lot shorter and simpler amount of time. For instance, the well-known Navier-Stoke equation may be swiftly solved using Numerical Schemes even though it has never been analytically solved. The drawbacks of conventional numerical schemes, on the other hand, are their difficulty in expressing irregular borders, the fact that they are not designed for unstructured meshes, and the fact that momentum, energy, and mass are not conserved. Lastly, they are oriented toward edges and one-dimensional physics and are not well suited for substantial turbulent flow issues.</p>
-<p>A revolutionary deep learning paradigm called physics informed neural networks (PINNs) is well suited for tackling forward and inverse issues of nonlinear partial differential equations (PDEs). Feedforward neural networks are trained as surrogate models for approximation solutions to the PDEs without the requirement for label data by including the physical information defined by PDEs in them. Numerous PINN-based approaches have been created to solve various types of problems, including integer-order PDEs, fractional PDEs, stochastic PDEs, and integro-differential equations. This is due to neural networks' great capacity to describe complicated connections (IDEs).</p>
+<h2 id="Motivation"><strong>Motivation</strong><a class="anchor-link" href="#Motivation">&#182;</a></h2><p>The three main methods used to solve scientific equations and problems are analytical, numerical, and experimental. However, we cannot always apply the experimental technique due to financial and time restrictions. Analytical techniques are the classic approaches to problem-solving. However, we cannot solve equations analytically due to limitations imposed by complex geometry, boundary conditions, and other factors.</p>
+<p>As a result, we have been encouraging numerical approaches for several years since they may generate answers that are virtually as trustworthy as those of analytical methods in a lot shorter and simpler amount of time. For instance, the well-known Navier-Stoke equation may be swiftly solved using Numerical Schemes even though it has never been analytically solved. On the other hand, the drawbacks of conventional numerical schemes are their difficulty in expressing irregular borders, the fact that they are not designed for unstructured meshes, and the fact that momentum, energy, and mass are not conserved. Lastly, they are oriented toward edges and one-dimensional physics and unsuitable for substantial turbulent flow issues.</p>
+<p>A revolutionary deep learning paradigm called physics-informed neural networks (PINNs) is well suited for tackling forward and inverse issues of nonlinear partial differential equations (PDEs). Feedforward neural networks are trained as surrogate models for approximation solutions to the PDEs without the requirement for label data by including the physical information defined by PDEs in them. Numerous PINN-based approaches have been created to solve various problems, including integer-order PDEs, fractional PDEs, stochastic PDEs, and integrodifferential equations. This is due to neural networks' incredible capacity to describe complicated relationships.</p>
 <p><img src="https://drive.google.com/uc?export=view&amp;id=1rrlQasTqngrtcDexpoZduDC0HGKW5lrl" alt="A Typcial PINN Framework"></p>
 <p>In this article, I investigate the usage of PINNs as a solution approximation for 1D Diffusion Equation. I first solve the equation using Finite Difference Method and the Solve the exact same equation using a PINN.</p>
 
@@ -15172,7 +15172,7 @@ jp-needs-light-background
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Notice that as time approached 2, the amplitude has significatly diminished. Which is as expected from a Diffusion equation. Note that, the equation is in faact 1D. The 3D plot above is for better visualition of how a Sine wave amplitude diffuses over time.</p>
+<p>Notice that as time approached 1, the amplitude has diminished by atleast 50%. Which is as expected behavious from a Diffusion equation. Note that, the equation is in fact 1D. The 3D plot above is only for better visualition of how a Sine wave amplitude diffuses over time.</p>
 
 </div>
 </div>
@@ -16313,7 +16313,7 @@ jp-needs-light-background
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>3D plot of solution for Difference between both solutions</p>
+<p>3D plot of Error between Finite Difference Method and Physics Informed Neural Network model.</p>
 
 </div>
 </div>
@@ -16390,7 +16390,7 @@ jp-needs-light-background
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The RMSE Error between both solutions</p>
+<p>The RMSE Error:</p>
 
 </div>
 </div>
@@ -16443,7 +16443,7 @@ jp-needs-light-background
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Conclusion"><strong>Conclusion</strong><a class="anchor-link" href="#Conclusion">&#182;</a></h2><p>Clearly, PINNs can approximate the 1D Diffusion PDE pretty accurately. Further study is necessary to improve the accuray. Also notice the slight skew in the wave pattern starting from t=1. The root cause needs to be further investigated. In the next discussion, we will consider Burgers Equation and eventually develope a PINN model for the complete Navier-Stokes Equation.</p>
+<h2 id="Conclusion"><strong>Conclusion</strong><a class="anchor-link" href="#Conclusion">&#182;</a></h2><p>Evidently, PINNs can approximate the 1D Diffusion PDE pretty accurately. Further study is necessary to improve the accuracy. Also, notice the slight skew in the wave pattern starting from about t=.80. The root cause needs to be further investigated. In the following discussion, we will consider Burgers Equation. Eventually, I will develop a PINN model for the complete Navier-Stokes Equation.</p>
 <p><img src="https://drive.google.com/uc?export=view&amp;id=1lbbrLT31jiJ9tr2pGLsGH7FWS8IYSos0" alt="Final Results"></p>
 
 </div>
