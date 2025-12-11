@@ -2597,4 +2597,41 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+/* ==== Force non-alternating resume timeline ==== */
+#resume .timeline-wrap::before {
+  left: 35%;
+}
+
+/* base layout – header left, content right */
+#resume .timeline-header {
+  float: left;
+  width: 35%;
+  padding-right: 90px;
+  padding-left: 0;
+  text-align: right;
+}
+
+#resume .timeline-content {
+  margin-left: 35%;
+  padding-left: 60px;
+  padding-right: 0;
+}
+
+/* override any alternating rules for even blocks */
+#resume .timeline-block:nth-child(even) .timeline-header {
+  float: left !important;
+  width: 35% !important;
+  padding-right: 90px !important;
+  padding-left: 0 !important;
+  text-align: right !important;
+}
+
+#resume .timeline-block:nth-child(even) .timeline-content {
+  margin-left: 35% !important;
+  padding-left: 60px !important;
+  padding-right: 0 !important;
+}
+
+
+
 /*# sourceMappingURL=main.css.map */
