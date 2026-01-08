@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
 
-  <!--- basic page needs
+  <!-- basic page needs
   ================================================== -->
   <meta charset="utf-8">
   <title>Adarsh Gouda – Technology & Engineering Project Manager</title>
@@ -15,7 +15,6 @@
 
   <!-- CSS
   ================================================== -->
-  <!-- keep these paths consistent with your project structure -->
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/vendor.css">
@@ -43,17 +42,18 @@
         <a class="menu-toggle" href="#"><span>Menu</span></a>
 
         <div class="logo">
-          <!-- replace with your own logo if desired -->
           <a href="#intro">AG</a>
         </div>
 
         <nav id="main-nav-wrap">
           <ul class="main-navigation">
-            <li class="current"><a href="#intro" title="">Home</a></li>
-            <li><a href="#about" title="">About</a></li>
-            <li><a href="#resume" title="">Resume</a></li>
-            <li><a href="#patents" title="">Patents</a></li>
-            <li><a href="#contact" title="">Contact</a></li>
+            <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+            <li><a class="smoothscroll" href="#about" title="">About</a></li>
+            <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#services" title="">Services</a></li>
+            <li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+            <li><a class="smoothscroll" href="#patents" title="">Patents</a></li>
+            <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -77,10 +77,9 @@
 
           <p class="intro-position">
             <span>Technology Project Manager</span>
-            
           </p>
 
-          <a class="button stroke" href="#resume">View Resume</a>
+          <a class="button stroke smoothscroll" href="#resume">View Resume</a>
 
         </div>
 
@@ -90,7 +89,8 @@
     <ul class="intro-social">
       <li><a href="mailto:adhi.pesit@gmail.com"><i class="fa fa-envelope"></i></a></li>
       <li><a href="https://www.linkedin.com/in/adarshgouda" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-      <li><a href="https://adarshgouda.github.io" target="_blank"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://github.com/AdarshGouda" target="_blank"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://medium.com/@adarsh-gouda" target="_blank"><i class="fa fa-pencil"></i></a></li>
     </ul>
 
   </section>
@@ -106,7 +106,6 @@
 
         <div class="intro-info">
 
-          <!-- replace with your own headshot -->
           <img src="images/adarsh.PNG" alt="Adarsh Gouda">
 
           <p class="lead">
@@ -194,11 +193,858 @@
 
     <div class="row button-section">
       <div class="col-twelve">
-        <a href="#contact" class="button stroke">Get In Touch</a>
+        <a href="#portfolio" class="button stroke smoothscroll">More Projects</a>
+        <a href="#contact" class="button stroke smoothscroll">Get In Touch</a>
       </div>
     </div>
 
   </section>
+
+  <!-- Portfolio Section (projects)
+  ================================================== -->
+  <section id="portfolio">
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h5>Portfolio</h5>
+        <h1>What have I been up to lately?</h1>
+
+        <p class="lead">Look here for a collection of my latest projects, exercises, articles, and more.</p>
+
+      </div>
+    </div>
+
+    <div class="row portfotlio-content">
+
+      <div class="col-twelve">
+
+        <!-- portfolio-wrapper -->
+        <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/burgers3.gif" alt="Img via Pixabay">
+              <a href="#modal-50" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Solving 1D Burgers' Equation - Finite Difference vs Neural Network</h3>
+                    <span class="folio-types">
+                      #3: Discourse on Deep Learning Techniques for Engineering Physics <br> Numpy, PyTorch <br>Finite Difference Method, PINNs
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/Result1.JPG" alt="Img via Pixabay">
+              <a href="#modal-19" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Solving 1D Diffusion Equation - Finite Difference vs Neural Network</h3>
+                    <span class="folio-types">
+                      #2: Discourse on Deep Learning Techniques for Engineering Physics <br> Numpy, PyTorch <br>Finite Difference Method, PINNs
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/navier.gif" alt="Img via Pixabay">
+              <a href="#modal-18" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Solving Navier Stokes with Stable Fluids Algorithm in Python</h3>
+                    <span class="folio-types">
+                      #1: Discourse on Deep Learning Techniques for Engineering Physics <br> PhiFlow, Python, Pylab <br>Stable Fluids
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/mlp.JPG" alt="Img via Pixabay">
+              <a href="#modal-17" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Predicting Oil Production Trends using Deep Learning to Appraise Oil Wells</h3>
+                    <span class="folio-types">
+                      Oil Production Prediction<br> TensorFlow, LSTM, Conv1D, Dense <br>Time-Series, Regression
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/lstm.png" alt="Img via Pixabay">
+              <a href="#modal-14" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Gesture Recognition from Video Sequences</h3>
+                    <span class="folio-types">
+                      Time Distributed 2DCNN-LSTM Architecture<br> TensorFlow, OpenCV2, sklearn <br>Gesture Recognition
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/RUDRAv3-1.jpeg" alt="Img via Pixabay">
+              <a href="#modal-13" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">RUDRA.v3</h3>
+                    <span class="folio-types">
+                      ROS Unified Differential-drive Remote-mode Autonomous-robot<br> Robot Operating System, C++, Python <br>Teensy, Intel NUC, YDLiDAR
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/stat.png" alt="Img via Pixabay">
+              <a href="#modal-15" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Stock Price Prediction</h3>
+                    <span class="folio-types">
+                      Learning a strategy that will predict the price for a stock based on historical price action <br> Python, Machine Learning, Indicators
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/qc.png" alt="Img via Pixabay">
+              <a href="#modal-16" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Defect Detection by Segmentation</h3>
+                    <span class="folio-types">
+                      Automatic detection of abnormalities by machine learning for optical inspection quality control.<br> Python, Segmentation, U-Net
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/RUDRAv2-1.png" alt="Img via Pixabay">
+              <a href="#modal-05" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">RUDRA.v2</h3>
+                    <span class="folio-types">
+                      ROS Unified Differential-drive Remote-mode Autonomous-robot<br> Robot Operating System, C++, Python <br>Teensy, Jetson Nano, RPLiDAR
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/gym.gif" alt="Img via Pixabay">
+              <a href="#modal-02" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Deep Q-Learning</h3>
+                    <span class="folio-types">
+                      LUNAR LANDER <br> Deep Q-Network, OpenAI Lunar Lander-v2
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/Rudrav1.PNG" alt="Img via Pixabay">
+              <a href="#modal-03" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">RUDRA.v1</h3>
+                    <span class="folio-types">
+                      ROS Unified Differential-drive Remote-mode Autonomous-robot<br> Robot Operating System, C++, Python <br>Arduino, Jetson Nano, RPLiDAR
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/sutton1.png" alt="Img via Pixabay">
+              <a href="#modal-04" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Incrementally Understanding Sutton</h3>
+                    <span class="folio-types">
+                      Temporal Difference Learning<br>Random Walk Experiment
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/beam.png" alt="Image via Pixabay">
+              <a href="#modal-01" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Design Optimization with Neural Nets</h3>
+                    <span class="folio-types">
+                      Article on Medium
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/q1.png" alt="Img via Pixabay">
+              <a href="#modal-06" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Multiagent Q-Learning</h3>
+                    <span class="folio-types">
+                      Correlated Q-Learning <br> Two-Player Zero-Sum Markov Game
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/cfd.png" alt="Img via Pixabay">
+              <a href="#modal-07" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">RANS Turbulence Models</h3>
+                    <span class="folio-types">
+                      Turbulence Models for Design Engineers <br> Computational Fluid Dynamics
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/fta.png" alt="Img via Pixabay">
+              <a href="#modal-08" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Fault Tree Analysis</h3>
+                    <span class="folio-types">
+                      Root Cause Analysis <br> Quality, Reliability, Design, Failures
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/dharma.png" alt="Img via Pixabay">
+              <a href="#modal-09" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Vedic Method of Problem Solving</h3>
+                    <span class="folio-types">
+                      Engineer's Dharma
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/p1.PNG" alt="Img via Pixabay">
+              <a href="#modal-10" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">1# Regression Modeling: Intro</h3>
+                    <span class="folio-types">
+                      Accurate Approximate Engineering Models
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/p2.PNG" alt="Img via Pixabay">
+              <a href="#modal-11" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">2# Regression Modeling: Methodology</h3>
+                    <span class="folio-types">
+                      Accurate Approximate Engineering Models
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/p3.PNG" alt="Img via Pixabay">
+              <a href="#modal-12" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">3# Regression Modeling: Validation Run</h3>
+                    <span class="folio-types">
+                      Accurate Approximate Engineering Models
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <!-- modal popups - begin
+          ============================================================= -->
+
+          <div id="modal-01" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/beam.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Exploring Deep Neural Networks for Design Optimization of Engineering Problems</h4>
+              <p>Modeling &amp; Simulation has played a significant role in improving design cycle time with extensive use of FEA and CFD solvers that implement various methods for solving differential equations. However, as the problem domain becomes larger with increasing degrees of freedom and complex boundary conditions, the computational time needed to solve the system of equations may range from several hours to days and even weeks. With such cycle times between simulations, optimizing the model even slightly will need the simulation to be run from the start.
+                <br>In recent times, machine learning algorithms are becoming increasingly popular in several fields. It has been successfully demonstrated over the decade that if ML models are properly chosen and trained, the models perform exceptionally well over conventional techniques.
+                <br>This article provides a basic understanding of how Neural Networks can be used to significantly reduce the overall computation time and complement modeling and simulation techniques. An example of a cantilever beam in harmonic oscillation is presented using Python and TensorFlow.</p>
+
+              <div class="categories">Data Science</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://adarsh-gouda.medium.com/exploring-deep-neural-networks-for-design-optimization-of-engineering-problems-836fe170d90a" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-01 -->
+
+          <div id="modal-02" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/gym.gif" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Implementing Deep Q-Network on Lunar Lander-v2</h4>
+              <p>This paper describes Deep Q-Network (DQN) implementation to solve OpenAI's Lunar Lander-v2 environment by attempting to replicate the DQN Algorithm proposed by Mnih et al. The fundamental idea behind DQN is that Q-Learning is now backed by a Stochastic Gradient Descent Neural Network to predict Q-values. The paper also discusses the fundamentals of Q-Learning, Function Approximation and Artificial Neural-Nets (ANN) that are quintessential in implementation of DQN algorithm. Finally, I discuss the results and influences of key hyperparameters on the agent's learning performance.</p>
+              <div class="categories">Reinforcement Learning, Deep Learning, Python</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/AdarshGouda/Deep-Q-Network-Lunar-Lander/blob/main/DQN_Report.pdf" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-02 -->
+
+          <div id="modal-03" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/Rudrav1.PNG" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>RUDRAv1</h4>
+              <p>The first prototype of RUDRA the autonomous rover bot using Arduino platform for robot base and Jetson Nano for ROS control.</p>
+
+              <div class="categories">Arduino, ROS, Jetson Nano, C++, Python</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/AdarshGouda/RUDRAv1" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-03 -->
+
+          <div id="modal-04" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/sutton1.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Learning to Predict by the Methods of Temporal Differences – Richard Sutton (1988)</h4>
+              <p>This report replicates the experiments described in the renowned paper “Learning to Predict by the Methods of Temporal Differences” by Richard Sutton (1988). Specifically, the report describes the random walk problem, discusses the theory behind solving the problem, provides pseudo-codes where required and contextualizes the similarities and differences in the results while mentioning the pitfalls and challenges faced in replicating the results.
+                <br>Jupyter Notebook file contains all the codes and plots that were used in the report.</p>
+
+              <div class="categories">Reinforcement Learning, TD Learning, Random Walk, Python</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/AdarshGouda/Replicating-Sutton-TDLearning-1988/blob/main/Sutton1988_TD%20Learning_REPORT.pdf" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-04 -->
+
+          <div id="modal-05" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/RUDRAv2-1.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>RUDRAv2</h4>
+              <p>Design, develop, and build a SLAM autonomous robot capable of mapping, planning, and autonomous navigation. The robot will be equipped with a Depth and IR camera for object detection, reinforcement learning, and deep learning tasks. Modular approach in architecture to enable upgrade and scalability. Should be able to switch between manual and autonomous control of robot base on demand. Under 500 USD.</p>
+
+              <div class="categories">Autonomous Navigation, Object Recognition, C++, ROS</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/AdarshGouda/RUDRAv1" target="_blank" title="">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-05 -->
+
+          <div id="modal-06" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/q1.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Greenwald &amp; Hall’s Correlated-Q Learning</h4>
+              <p>This paper describes and replicates the Soccer environment, a two-player, zero-sum Markov game from Greenwald and Hall. Four variants of Q-Learning algorithms are applied to the Soccer game and convergence to equilibrium policies is validated. This paper also discusses the theoretical foundations of multiagent Q-learning techniques.</p>
+
+              <div class="categories">Reinforcement Learning, Q-Learning, Multi-Agent</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/AdarshGouda/Correlated-Q-Greenwald-Hall/blob/main/Correlated%20Q-Learning%20REPORT.pdf" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-06 -->
+
+          <div id="modal-07" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/cfd.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>RANS Turbulence Models for Design Engineers</h4>
+              <p>Since time immemorial, mankind has always struggled with turbulences. To tame the whirling beast, Computational Fluid Dynamics has come a long way in simulating turbulences in more ways than one. And choosing a simulation model to accurately determine turbulence in a system of fluid flow has been daunting for engineers. This article discusses common RANS turbulence models such as SST, k-ε and k-ω and gives guidance on model selection.</p>
+
+              <div class="categories">Computational Fluid Dynamics</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://www.linkedin.com/pulse/select-right-turbulence-model-your-cfd-simulations-adarsh/?trackingId=ROYSRuR0zE%2B1YXS3a1qZGg%3D%3D" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-07 -->
+
+          <div id="modal-08" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/fta.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Fault Tree Analysis</h4>
+              <p>Fault Tree is a logical diagram that describes the interactions between failure modes and their causes. Fault Tree Analysis is a top-down failure analysis technique, where the undesired state of a system is analyzed using Boolean Logic to combine a series of lower-level events. This article introduces the method and its use in design, quality, and reliability.</p>
+
+              <div class="categories">Root Cause Analysis</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://www.linkedin.com/pulse/fault-tree-analysis-design-engineers-adarsh-gouda-pmp-npdp-eit/" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-08 -->
+
+          <div id="modal-09" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/dharma.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Vedic Method of Problem Solving</h4>
+              <p>Although there was apparent corruption in Vedic ways that negatively impacted the social fabric of India, it would not be an overstatement to say that Sanatana Dharma was that way of life where Science, Philosophy and Spirituality intertwined gracefully in a systematic, logical manner. This article explores how a Vedic method of problem solving would look in modern engineering research.</p>
+
+              <div class="categories">Engineer's Dharma</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://www.linkedin.com/pulse/engineers-dharma-vedic-method-problem-solving-gouda-pmp-npdp-eit/" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-09 -->
+
+          <div id="modal-10" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/p1.PNG" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Regression Modeling: Introduction</h4>
+              <p>Accurate Approximate Engineering Models can come very handy when developing products and systems. This first instalment explains the purpose and benefits of regression-based models and walks through an example using Microsoft Excel.</p>
+
+              <div class="categories">Regression Modeling</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://www.linkedin.com/pulse/regression-modeling-design-engineers-part-1-gouda-pmp-npdp-eit/" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-10 -->
+
+          <div id="modal-11" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/p2.PNG" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Regression Modeling: Methodology</h4>
+              <p>This article is about the steps involved in Regression Modelling to develop an Accurate Approximate Model for engineering analysis. It builds on the introduction in Part 1.</p>
+
+              <div class="categories">Regression Modeling</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://www.linkedin.com/pulse/regression-modeling-design-engineers-part-2-gouda-pmp-npdp-eit/" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-11 -->
+
+          <div id="modal-12" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/p3.PNG" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Regression Modeling: Validation Run</h4>
+              <p>Validation runs are crucial in determining if an Accurate Approximate Engineering Model behaves as intended. This article explains the idea behind validation runs and the steps to perform them.</p>
+
+              <div class="categories">Regression Modeling</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://www.linkedin.com/pulse/regression-modeling-design-engineers-part-3-run-adarsh/" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-12 -->
+
+          <div id="modal-13" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/RUDRAv3-2.jpeg" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>RUDRAv3</h4>
+              <p>This article is a comprehensive guide to building your own autonomous rover for SLAM and navigation. It provides step-by-step instructions plus background on SLAM and ROS.</p>
+
+              <div class="categories">Autonomous Navigation</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://adarsh-gouda.medium.com/rudra-8e643e279d95" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-13-->
+
+          <div id="modal-14" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/lstm2.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>2DCNN-LSTM</h4>
+              <p>A method that recognizes sign language from short video recordings and translates them into natural language. VGG19 is used for spatial features and LSTM for temporal features, achieving 96% accuracy on Argentinian Sign Language gestures.</p>
+
+            <div class="categories">Machine Learning, Deep Learning</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://adarsh-gouda.medium.com/sign-language-gesture-recognition-from-video-sequences-using-time-distributed-2dcnn-lstm-641a8b192b9c" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-14-->
+
+          <div id="modal-15" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/stat.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Stock Price Prediction using Machine Learning</h4>
+              <p>This article explores two strategies leveraging historical stock prices and generating trading signals: a manual rule-based strategy and a Strategy Learner using Bagging and Regression Trees to learn trading rules.</p>
+
+              <div class="categories">Machine Learning, Stock Market</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://adarsh-gouda.medium.com/stock-price-prediction-strategy-learner-ace54cfe5c2" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-15-->
+
+          <div id="modal-16" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/qc.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Quality Control of Surface Defects and Inclusions using Deep Learning Image Segmentation</h4>
+              <p>Explores 2D CNN-based U-Net architecture to detect defects on surfaces or materials as part of automated quality control in Industry 4.0 production lines.</p>
+
+              <div class="categories">Machine Learning, Quality Control, Image Segmentation</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://adarsh-gouda.medium.com/defect-detection-using-image-segmentation-8f9977269a9a" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-16-->
+
+          <div id="modal-17" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/mlp.JPG" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Predicting Oil Production Trends using Deep Learning to Appraise Oil Wells</h4>
+              <p>Investigates whether oil well activity can be understood and predicted using deep learning methods, leveraging Conv1D and LSTM architectures to model production profiles.</p>
+
+              <div class="categories">Trend Analysis, Conv1D, LSTM</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://adarsh-gouda.medium.com/oil-production-prediction-using-deep-learning-for-appraising-oil-wells-87a000be9345" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-17-->
+
+          <div id="modal-18" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/navier.gif" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Solving Navier Stokes with Stable Fluids Algorithm in Python</h4>
+              <p>Discusses Jos Stam’s Stable Fluids algorithm, which enables real-time interaction with three-dimensional fluids by using unconditionally stable solvers built from a mix of Lagrangian and implicit techniques.</p>
+
+              <div class="categories">Fluid Dynamics, PhiFlow, Stable Fluids</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://medium.com/@adarsh-gouda/solving-navier-stokes-with-stable-fluids-algorithm-in-python-68b598e2dba5" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-18-->
+
+          <div id="modal-19" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/Result1.JPG" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Solving 1D Diffusion Equation - Finite Difference vs Neural Network</h4>
+              <p>Investigates the use of Physics Informed Neural Networks as solution approximators for the 1D Diffusion Equation, comparing them to classical finite-difference methods.</p>
+
+              <div class="categories">Differential Equations, PINNs</div>
+            </div>
+
+            <div class="link-box">
+              <a href="html_pages/1D_Diffusion_FDM_vs_DNN.html" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-19-->
+
+          <div id="modal-50" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/burgers1.JPG" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Solving 1D Burgers Equation - Finite Difference vs Neural Network</h4>
+              <p>Explores the use of Physics Informed Neural Networks for the nonlinear 1D Burgers’ Equation, again comparing to a finite-difference reference solution.</p>
+
+              <div class="categories">Fluid Dynamics, Physics Informed Neural Network</div>
+            </div>
+
+            <div class="link-box">
+              <a href="html_pages/Burgers_FDM_PINN.html" target="_blank">Show Me</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-50-->
+
+          <!-- modal popups - end
+          ============================================================= -->
+
+        </div> <!-- /portfolio-wrapper -->
+
+      </div>  <!-- /twelve -->
+
+    </div> <!-- /portfolio-content -->
+
+  </section> <!-- /portfolio -->
+
+  <!-- services Section
+  ================================================== -->
+  <section id="services">
+
+    <div class="overlay"></div>
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h5>Areas Of Expertise</h5>
+        <h1>What Can I Do?</h1>
+
+        <p class="lead">
+          Experience in Product Innovation, Mechanical Design, 3D CAD, Engineering Simulations (FEA/CFD),
+          Electronic Prototyping, Machine Learning, Robot Operating System (ROS), Python programming,
+          Product Lifecycle Management, and Project Management.
+        </p>
+
+      </div>
+    </div> <!-- /section-intro -->
+
+    <div class="row services-content">
+
+      <div id="owl-slider" class="owl-carousel services-list">
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-car"></i></span>
+
+          <div class="service-content">
+
+            <h3>Product Design &amp; Development</h3>
+
+            <p class="desc">
+              10+ years of demonstrated experience leading and executing projects to develop and sustain
+              Oil &amp; Gas downhole equipment and consumer electronics devices. Strong understanding of
+              the engineering value chain to conceptualize, develop, manage, and introduce new-to-market
+              and new-to-company products and technologies.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-window"></i></span>
+
+          <div class="service-content">
+
+            <h3>Machine Learning &amp; Robotics</h3>
+
+            <p class="desc">
+              OMSCS at Georgia Tech with focus on Machine Learning and Computational Perception &
+              Robotics. Hands-on work with Deep Learning (DNNs, CNNs, LSTMs, Transformers),
+              Reinforcement Learning, ML for Trading, and AI for Robotics (Kalman/Particle filters,
+              localization, mapping, path planning, navigation) using ROS, Python, and modern toolchains.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-users"></i></span>
+
+          <div class="service-content">
+
+            <h3>Technology Project Management</h3>
+
+            <p class="desc">
+              PMP-certified project manager with a decade of experience leading cross-functional
+              teams across R&amp;D, manufacturing, and field deployment. Skilled in project planning,
+              risk management (FMEA, FTA), DFSS, value-stream mapping, and systems engineering to
+              deliver complex hardware/software programs.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+      </div> <!-- /services-list -->
+
+    </div> <!-- /services-content -->
+
+  </section> <!-- /services -->
 
   <!-- resume section
   ================================================== -->
@@ -250,7 +1096,6 @@
                 Go/No-Go milestones, de-risking plans, and integration with
                 existing product lines.
               </p>
-              
             </div>
 
           </div>
@@ -277,7 +1122,6 @@
                 requirements, and field-test strategy, bridging R&amp;D
                 algorithms with productized Sonic LWD workflows.
               </p>
-              
             </div>
 
           </div>
@@ -304,7 +1148,6 @@
                 rollout into existing fleets in collaboration with process,
                 quality, and operations teams.
               </p>
-              
             </div>
 
           </div>
@@ -333,7 +1176,6 @@
                 budget and on schedule; contributed to SLB Bronze Award
                 semi-finalist “Autonomous Directional Drilling with DD40”.
               </p>
-              
             </div>
 
           </div>
@@ -362,7 +1204,6 @@
                 internal audits, production scheduling, traceability, training,
                 and business continuity.
               </p>
-              
             </div>
 
           </div>
@@ -391,7 +1232,6 @@
                 sensor qualification strategy. Performed CFD/FEA studies for
                 erosion, pressure containment, and structural integrity.
               </p>
-              <a href="#als-details" class="button">Show Details</a>
             </div>
 
           </div>
@@ -416,9 +1256,8 @@
                 meters), owning end-to-end mechanical design from concept to
                 tooling and volume production. Designed tamper-resistant
                 mechanical architectures and presented “Tamper Proof Mechanical
-                Designs for Industrial Energy Meters” at ELECRAMA&nbsp;2011.
+                Designs for Industrial Energy Meters” at ELECRAMA 2011.
               </p>
-              <a href="#lt-details" class="button">Show Details</a>
             </div>
 
           </div>
@@ -537,7 +1376,7 @@
 
   </section>
 
-  <!-- Patents & Publications section (uses portfolio styling)
+  <!-- Patents & Publications section
   ================================================== -->
   <section id="patents">
 
@@ -560,7 +1399,7 @@
         <ul class="disc">
           <li>
             <strong>Base gauge and multiple remote sensors</strong> —
-            US Patent 10&nbsp;329&nbsp;894 (2019). Downhole base gauge with
+            US Patent 10 329 894 (2019). Downhole base gauge with
             multi-drop remote sensing for monitoring multiple parameters along
             an ESP string.
           </li>
@@ -668,7 +1507,7 @@
         <ul class="footer-social">
           <li><a href="mailto:adhi.pesit@gmail.com"><i class="fa fa-envelope"></i></a></li>
           <li><a href="https://www.linkedin.com/in/adarshgouda" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://adarshgouda.github.io" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://github.com/AdarshGouda" target="_blank"><i class="fa fa-github"></i></a></li>
         </ul>
       </div>
 
@@ -679,6 +1518,11 @@
     </div>
   </footer>
 
+  <!-- optional preloader (works with Kards main.js) -->
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
   <!-- JavaScript
   ================================================== -->
   <script src="js/jquery-2.1.3.min.js"></script>
@@ -687,4 +1531,3 @@
 
 </body>
 </html>
-
